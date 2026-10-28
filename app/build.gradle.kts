@@ -63,6 +63,7 @@ dependencies {
 
     implementation(libs.room.runtime)
     ksp(libs.room.compiler)
+    implementation(libs.concentus)
     implementation(libs.sqlcipher)
     implementation(libs.security.crypto)
     implementation(libs.work.runtime.ktx)
